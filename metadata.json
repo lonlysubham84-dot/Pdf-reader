@@ -1,0 +1,6 @@
+{
+  "name": "PDF Studio Pro",
+  "description": "Professional PDF reader and document editor with text markup, custom image overlays, digital signatures, annotations, and page customization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

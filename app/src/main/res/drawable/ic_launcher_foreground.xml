@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Document shadow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M31,24 h34 l15,15 v47 c0,2.2 -1.8,4 -4,4 H31 c-2.2,0 -4,-1.8 -4,-4 V28 c0,-2.2 1.8,-4 4,-4z" />
+    <!-- Main PDF Document Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M29,22 h33 l15,15 v47 c0,2.2 -1.8,4 -4,4 H29 c-2.2,0 -4,-1.8 -4,-4 V26 c0,-2.2 1.8,-4 4,-4z" />
+    <!-- Folded corner flap -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M62,22 v11 c0,2.2 1.8,4 4,4 h11 L62,22z" />
+    <!-- PDF Crimson Red Header Ribbon / Badge -->
+    <path
+        android:pathData="M25,32 h28 c2,0 3,1 3,3 v10 c0,2 -1,3 -3,3 H25 V32z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="25"
+                android:startY="32"
+                android:endX="56"
+                android:endY="48"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EF4444" />
+                <item android:offset="1.0" android:color="#DC2626" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- "PDF" Text Indicator Bars in Crimson Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,36 h8 v2 h-8z M30,40 h5 v2 h-5z M42,36 h8 v6 h-8z" />
+    <!-- Document preview lines -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M29,54 h46 v3 H29z M29,61 h38 v3 H29z M29,68 h42 v3 H29z M29,75 h26 v3 H29z" />
+    <!-- Floating Stylus / Edit Pen Badge -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M65,60 l17,-17 c1.5,-1.5 4,-1.5 5.5,0 l2,2 c1.5,1.5 1.5,4 0,5.5 L72.5,67.5 l-9.5,2 L65,60z" />
+    <!-- Stylus Nib & Tip -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M63,69.5 l4.5,-1 -3.5,-3.5 -1,4.5z" />
+    <!-- Stylus Gold Ring Accent -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,47 l3.5,3.5 1.5,-1.5 -3.5,-3.5z" />
+</vector>
